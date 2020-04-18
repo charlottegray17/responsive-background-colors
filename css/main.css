@@ -45,6 +45,10 @@ header {
   background: #4f598c;
 }
 
+#column-4 {
+  display: none;
+}
+
 
 /*---------- FOOTER ----------*/
 
@@ -63,6 +67,12 @@ footer {
     background-color: Cornsilk;
   }
 
+  .col-3 {
+    width: 50%;
+    height: 320px;
+    float: left;
+  }
+
   #column-1 {
     background-color: Crimson;
   }
@@ -73,6 +83,11 @@ footer {
 
   #column-3 {
     background-color: DarkGoldenRod;
+  }
+
+  #column-4 {
+    display: block;
+    background-color: DarkBlue;
   }
 
   footer {
@@ -88,6 +103,12 @@ footer {
     background-color: DarkKhaki;
   }
 
+  .col-3 {
+    width: 33.33%;
+    height: 320px;
+    float: left;
+  }
+
   #column-1 {
     background-color: DarkOrchid;
   }
@@ -98,6 +119,10 @@ footer {
 
   #column-3 {
     background-color: DarkTurquoise;
+  }
+
+  #column-4 {
+    display: none;
   }
 
   footer {
